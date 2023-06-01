@@ -1,0 +1,288 @@
+body {
+  background: url("./images/bg-1.jpg") no-repeat;
+  background-color: #070709;
+  color: white;
+}
+
+.title {
+  color: #f98c1e;
+  margin-bottom: 1 rem;
+}
+
+.box {
+  margin-top: 50px;
+}
+
+.panel-block {
+  color: #eb0000;
+  justify-content: center;
+}
+
+strong {
+  color: #ff1212;
+  font-weight: 700;
+}
+
+.panel {
+  margin-top: 2em;
+}
+
+.panel-heading {
+  background-image: linear-gradient(to left, #68510b, #030303);
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
+.btn {
+  --bs-btn-bg: #f98c1e;
+  --bs-btn-padding-x: 1.75rem;
+  --bs-btn-padding-y: 0.375rem;
+  --bs-btn-line-height: 20.5px;
+
+}
+
+.address-box {
+  padding: 3em;
+}
+
+.box .title {
+  color: #333;
+}
+
+.form-select {
+
+  padding: inherit;
+
+  background-position: right;
+
+}
+
+.btn-primary {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #f98c1e;
+  --bs-btn-border-color: #000000;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: linear-gradient(to left, #f60808, #d7a713);
+  --bs-btn-hover-border-color: #f98c1e;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #e19309;
+
+}
+
+.fa-xl {
+  font-size: 1.5em;
+  line-height: inherit;
+  vertical-align: -1.125em;
+}
+
+.navbar-brand,
+.navbar-tabs {
+  align-items: baseline;
+  font-size: 1.5rem !important;
+
+}
+
+/* SideBar css */
+.offcanvas-backdrop.show {
+  opacity: 0;
+}
+
+.list-group-item.active {
+  z-index: 2;
+  color: #40ce14;
+  background-color: black;
+  border-color: #36ff12;
+}
+
+.list-group-item-action:focus,
+.list-group-item-action:hover {
+  z-index: 1;
+  color: forestgreen;
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-thickness: initial;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
+  background-color: whitesmoke;
+}
+
+.offcanvas {
+  position: fixed;
+  bottom: 0;
+  z-index: var(--bs-offcanvas-zindex);
+  display: flex;
+  /* flex-direction: column; */
+  max-width: 100%;
+  color: #36ff12;
+  visibility: hidden;
+  background-color: #000;
+  background-clip: padding-box;
+  outline: 0;
+  transition: var(--bs-offcanvas-transition);
+  /* flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  align-items: flex-start; */
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+  color: forestgreen;
+  text-decoration: none;
+  background-color: var(--bs-list-group-bg);
+  border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+}
+
+.lh-sm {
+  line-height: 1.25 !important;
+}
+
+.nav-link {
+  font-size: large;
+}
+
+
+.alert-success {
+  --bs-alert-color: #000000;
+  --bs-alert-bg: #2ec133;
+  --bs-alert-border-color: #000000;
+  --bs-alert-link-color: var(--bs-success-text-emphasis);
+}
+.accordion-button{
+  background-color: white;
+}
+.accordion-button:not(.collapsed) {
+
+  background-color: #000000;
+}
+
+.alert-danger {
+  --bs-alert-color: #000000;
+  --bs-alert-bg: #e52b3c;
+  --bs-alert-border-color: #000000;
+  --bs-alert-link-color: var(--bs-danger-text-emphasis);
+}
+
+
+.input {
+  border-color: #000;
+  height: 3em;
+}
+
+button {
+  margin: 3px;
+}
+
+.column {
+  display: contents;
+}
+
+.col-10 {
+  flex: 1 0 auto;
+  width: 91.333333%;
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+  color: rgb(255 255 255);
+}
+
+.navbar {
+  background-color: rgb(235, 141, 27);
+
+}
+
+
+.token1 {
+  margin-top: 30px;
+  margin-bottom: 3rem;
+}
+
+.navbar-nav {
+  --bs-nav-link-hover-color: rgb(255 255 255);
+}
+
+.navbar .navbar-item {
+  color: rgb(0, 0, 0);
+}
+
+.connect-wallet span {
+  color: #d99d1a;
+}
+
+.connect-wallet:hover {
+  background-color: #000000 !important;
+}
+
+
+.infotitle {
+  line-height: 3.125;
+}
+
+.container-fluid {
+  backdrop-filter: blur(8px);
+}
+
+.container.main-content {
+  max-width: 1000px !important;
+}
+
+.about {
+  color: #d99d1a;
+}
+
+.aboutteam {
+  color: #d99d1a;
+}
+
+img {
+  height: auto;
+  max-width: 2%;
+}
+
+
+body {
+  color: rgb(11, 226, 11)
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+
+.faucet-hero-body {
+  margin-top: 100px;
+}
+
+.withdraw-error {
+  color: red;
+}
+
+.withdraw-Success {
+  color: rgb(11, 226, 11);
+}
+
+
+.social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background: #ddd;
+  text-decoration: none;
+  color: #555;
+}

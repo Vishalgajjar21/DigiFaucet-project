@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5f2acaad.css",
+    "main.js": "/static/js/main.a8a6f546.js",
+    "static/js/787.e73a5041.chunk.js": "/static/js/787.e73a5041.chunk.js",
+    "static/media/bg-1.jpg": "/static/media/bg-1.04ede20567ef9fa8631c.jpg",
+    "static/media/comingsoon.png": "/static/media/comingsoon.3506976b043e99677fbe.png",
+    "static/media/naruto.png": "/static/media/naruto.08984790340b4bf34716.png",
+    "static/media/goku.png": "/static/media/goku.f1731ff40f5589a5d5d8.png",
+    "static/media/rocket.png": "/static/media/rocket.81a3259bd7fec5b2cad0.png",
+    "static/media/md.png": "/static/media/md.ac3f78672d5a4b42083d.png",
+    "index.html": "/index.html",
+    "main.5f2acaad.css.map": "/static/css/main.5f2acaad.css.map",
+    "main.a8a6f546.js.map": "/static/js/main.a8a6f546.js.map",
+    "787.e73a5041.chunk.js.map": "/static/js/787.e73a5041.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f2acaad.css",
+    "static/js/main.a8a6f546.js"
+  ]
+}
